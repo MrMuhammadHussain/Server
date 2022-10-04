@@ -10,8 +10,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs",
-    "DEV": "nodemon server.mjs"
+    "start": "node app",
+    "DEV": "nodemon app.mjs"
   },
   "repository": {
     "type": "git",
