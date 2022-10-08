@@ -9,7 +9,7 @@ app.use(cors())
 ///////Mongoose Schema ////////
 let dbSchema = new mongoose.Schema({
     text: { type: String, required: true },
-    classId: String,
+    classId: {type: String},
     CreatedDate: { type: Date, default: Date.now },
 });
 ////////////Mongoose Model////////
