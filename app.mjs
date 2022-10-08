@@ -55,9 +55,7 @@ app.delete('/todo', (req, res) => {
             })
         }
     })
-    // list = []
-    // res.send("Items deleted")
-})
+ })
 app.listen(port, () => {
     console.log(`port is up ${port}`)
 })
