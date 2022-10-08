@@ -20,7 +20,8 @@ app.post('/todo', (req, res) => {
     dbModel.create({ text: req.body.text, }, (err, saved) => {
         if (!err) {
             res.send({
-                massage:"data Saved",
+                massage:"Data Saved",
+                data: saved
             })
         }else{
             res.status(500).send({
